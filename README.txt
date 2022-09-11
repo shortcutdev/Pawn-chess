@@ -2,6 +2,6 @@
 
 
 Modify the move type to the level type(level1, level2, level3) to get the desired output according 
-Modify in -   isPossible=ob.AMove(move);
-					              to 
-			        isPossible=ob.level3(move);.
+Ex - Modify in -   isPossible=ob.AMove(move);
+			 to 
+	           isPossible=ob.level3(move);.
