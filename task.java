@@ -1,9 +1,10 @@
-
 package q3;
+
 
 import java.util.*;
 public class task {
 static Scanner in;
+
 public static void main(String[] args) {
 in = new Scanner(System.in);
 System.out.println("Enter the Names of Player :");
@@ -34,7 +35,7 @@ if(AMove)
 {
 System.out.println("Player A's Move : ");
 String move =in.next();
-isPossible=ob.Amove(move);
+isPossible=ob.level3(move);
 if(!isPossible)
 {
 continue;
